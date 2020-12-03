@@ -247,9 +247,7 @@ nav ul li{
 
 
 /*====================================================index.html*/
-.main-outer {
-   
-}
+
 
 .main-outer .row {
     display: flex;
@@ -592,12 +590,29 @@ nav ul li{
 
 
 
-/*-----------------------------------------^^^^^ End List of Gallery Photos*/
+/*---------------------------------^^^^^ End List of Gallery Photos*/
 /*-------------------------------------------------------------------*/
 
 
 
+/*------------------------------------------------------------------ABOUT.HTML*/
 
+.about-pic img
+   {
+    max-height: 180px;
+        }
+
+@media (min-width:1100px)
+{
+
+.about-pic img
+   {
+     position: relative;
+    width: 100%;
+    min-height: 400px;
+    overflow: hidden;
+        }
+}
 
 
 
