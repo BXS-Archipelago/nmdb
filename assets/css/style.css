@@ -264,7 +264,7 @@ nav ul li{
 }
 .intro-pic img {
     max-height: 200px;
-   
+    
       }
 
 .intro-text {
@@ -786,29 +786,58 @@ nav ul li{
 
 /*===================================================Template Artists.html*/
 
-.wide-pic
-{
-    max-width: 100%
+.artist-main-outer .row {
+    margin-bottom: 50px;
+    
 }
 
-
-.media {
+.media-container {
     display: flex;
-    align-content: left;
-
+    flex-direction: column;
+    
+}
+.media-box {
+display: flex;
+overflow: hidden;
+width: 100%;
+padding-top: 56.25%;
 }
 
-.youtube  {
-    position: relative;
-    margin: 25px;
-   align-items: left;
+.media-box .youtube .youtube-responsive {
+ position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
 }
 
-.spotify {
-    margin: 25px;
+.media-box2 {
+display: flex;
+overflow: hidden;
+width: 100%;
+padding-top: 56.25%;
+margin-bottom: 50px;
 }
 
 
+.media-box2 .spot .spotify{
+ position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+.concert-pic img {
+max-height: 200px;
+position: relative;
+width: 100%;
+}
 
 
 
