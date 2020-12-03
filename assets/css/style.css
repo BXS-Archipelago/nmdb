@@ -1,54 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 
 
-body{  
+body {  
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     min-height: 100vh;
-    margin-bottom: 140px;
 }
 
 
-
-.main-outer { 
-  
-    background-color: #EFEFEF;
-   
-        }
 /*--------------------------------------------------------------------------*/
 /*------------------------------------------------------------Logo & Nav Bar*/
 
 nav {position: relative;
-    padding: 50px 20px 150px 20px;
+    margin: 20px 20px 150px 20px;
     top: 0;
    }
 
 .logo{
     float: left;
+    margin-left: 40px;
        }
 
 .logo-title {
     font-family: "Roboto Condensed", sans-serif;
-     font-size: 100px;
-     letter-spacing: 2px;
+    font-size: 5rem;
+    letter-spacing: 2px;
     color: #000;
-    line-height: 1;
 }
 
 .logo-base a:hover {
     text-decoration: none;
-
 }
    
 .logo-title-strong {
    
-    font-family: "Shadows Into Light", sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
     letter-spacing: 2px;
      color: #000;
      line-height: 0.75;
     font-weight: bolder;
-    font-size: 120px;
+    font-size: 6rem;
         }
 
  
@@ -62,7 +54,7 @@ nav .nav-wrapper ul li a {
     color: #252525; 
     opacity: 0.7;
     transition: 1s;
-    text-shadow: 2px 4px 8px silver;
+    text-shadow: 4px 4px 8px #26272b; ;
 }
 
 nav ul {
@@ -86,11 +78,11 @@ nav ul li:not(:first-child){
 
 nav ul li a {
     display: inline-block;
-    color: maroon;
+    color: #000;
     font-family: "Roboto Condensed", sans-serif;
-     font-size: 40px;
+     font-size: 2rem;
      font-weight: bold;
-     letter-spacing: 2px;
+     letter-spacing: 2.5px;
 }
 
 
@@ -98,8 +90,6 @@ nav ul li a {
 
 /*----------------------------------------------------------------------*/
 /*-----------------------------------------------------------Media Query*/
-
-
 
 
 @media screen and (max-width: 993px) {
@@ -130,7 +120,7 @@ nav ul li{
         left: 0;
         width: 100%;
         height: 100%;
-        background: #36b9d6;
+        background: #000;
         z-index: -1;
         opacity: 0;
         transition: all 0.2s ease;
@@ -143,9 +133,8 @@ nav ul li{
         }
 
 
-     /*--------------------------------------------^^^^ width:100%; Bug to check?
-    }        
-    */
+     
+
     .nav-wrapper ul li {
         display: block;
         width: 100%;
@@ -178,7 +167,7 @@ nav ul li{
 
 .nav-wrapper ul li a {
     padding: 10px 22px;
-    color: #000;
+    color: #fff;
     font-weight: 14px;
     letter-spacing: 1.2px;
     opacity: 0;
@@ -202,7 +191,7 @@ nav ul li{
         display: block;
         width: 40px;
         height: 3px;
-        background: #fff;
+        background: #000;
         border-radius: 2px;
         margin-left: 5px;
     }
@@ -228,7 +217,7 @@ nav ul li{
 }
 
 #nav:checked + .nav-btn i{
-    background: darkgreen;
+    background: #fff;
     transition: all 0.2s ease;
 }
 
@@ -258,20 +247,386 @@ nav ul li{
 
 
 /*====================================================index.html*/
-
-.intro-pic1 {
-    
-    background-size: cover;
-    min-width: 400px;
-    min-height: 500px;
-    position: center;
+.main-outer {
+   
 }
+
+.main-outer .row {
+    display: flex;
+   align-items: center;
+   margin: 30px auto;
+}
+.intro-pic img {
+    max-height: 200px;
+   
+      }
+
+.intro-text {
+    padding: 0 20px;
+}
+
+
+
+/*=====================================================GALLERY ARTISTS.HTML*/
+
+.glry-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    height: 300px;
+    width: 300px;
+    background-color: #313333;
+    transform: scale(0.7);
+    border-radius: 8px;
+    box-shadow: 0 0 80px 1px #26272b;
+    margin-bottom: 50px;
+}
+
+.info {
+    width: 100%;
+    height:100%;
+    display:flex;
+    justify-content: center;
+}
+
+.artist {
+    font-family: "Robot Condensed", sans-serif;
+    font-size: 1.25rem;
+    font-weight: bolder;
+    color: #CAEBF2;
+    text-shadow: 0px 0px 2px #26272b;
+    position: absolute;
+    top: 30px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.country {
+    font-size: 1rem;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: bold;
+    letter-spacing: 5px;
+    color: skyblue;
+    position: absolute;
+    top: 60px;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 2px #26272b;
+}
+
+.divider {
+    background-color:#FF3B3F;
+    height: 1.5px;
+    width: 50px;
+    position: absolute;
+    top: 90px;
+}
+
+.more {
+    position: absolute;
+    top: 100px;
+    color: #CAEBF2;
+    line-height: 28px;
+    font-size: 1rem;
+    text-align: center;   
+}
+
+.card-btn {
+    position: absolute;
+    bottom: 20px;
+    background-color: #fff;
+    border: none;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 13px 25px; 
+    cursor: pointer;
+    color: #00008f;
+   }
+
+.card .sptfy-link {
+    position: absolute;
+    bottom:-70px;
+    font-size: 25px;
+    color: #ff3b3f;
+    background: #CAEBF2;
+    width: 100%; 
+    padding: 12px 4px;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+   
+}
+
+/*-------------------------------------------------------------------*/
+/*--------------------------------------------List of Gallery Photos*/
+.pic1 {
+    height: 100%;
+    width: 100%;
+    background-image: url("../img/agnes_obel1a.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom:0;
+    background-size: 100% 100%;
+    border-radius: 8px;
+    transition: 1s;
+   }
+
+
+.card:hover .pic1 {
+    transform: scale(0.5, 0.35) translateY(-525px);
+    border-radius: 40%;
+}
+
+
+.pic2 {
+    height: 100%;
+    width: 100%;
+    background-image: url("../img/ane_brun2.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom:0;
+    background-size: 100% 100%;
+    border-radius: 8px;
+    transition: 1s;
+}
+
+
+.card:hover .pic2 {
+    transform: scale(0.5, 0.35) translateY(-525px);
+    border-radius: 40%;
+}
+
+.pic3 {
+    height: 100%;
+    width: 100%;
+    background-image: url("../img/elperrodelmar2.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom:0;
+    background-size: 100% 100%;
+    border-radius: 8px;
+    transition: 1s;
+}
+
+
+.card:hover .pic3 {
+    transform: scale(0.5, 0.35) translateY(-525px);
+    border-radius: 40%;
+}
+
+.pic4 {
+    height: 100%;
+    width: 100%;
+    background-image: url("../img/fever_ray3.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom:0;
+    background-size: 100% 100%;
+    border-radius: 8px;
+    transition: 1s;
+}
+
+
+.card:hover .pic4 {
+    transform: scale(0.5, 0.35) translateY(-525px);
+    border-radius: 40%;
+}
+
+.pic5 {
+    height: 100%;
+    width: 100%;
+    background-image: url("../img/hannehukkelberg2.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom:0;
+    background-size: 100% 100%;
+    border-radius: 8px;
+    transition: 1s;
+}
+
+
+.card:hover .pic5 {
+    transform: scale(0.5, 0.35) translateY(-525px);
+    border-radius: 40%;
+}
+
+.pic6 {
+    height: 100%;
+    width: 100%;
+    background-image: url("../img/jennie_abrahamson1a.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom:0;
+    background-size: 100% 100%;
+    border-radius: 8px;
+    transition: 1s;
+}
+
+
+.card:hover .pic6 {
+    transform: scale(0.5, 0.35) translateY(-525px);
+    border-radius: 40%;
+}
+
+.pic7 {
+    height: 100%;
+    width: 100%;
+    background-image: url("../img/ninakinert2.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom:0;
+    background-size: 100% 100%;
+    border-radius: 8px;
+    transition: 1s;
+}
+
+
+.card:hover .pic7 {
+    transform: scale(0.5, 0.35) translateY(-525px);
+    border-radius: 40%;
+}
+
+
+.pic8 {
+    height: 100%;
+    width: 100%;
+    background-image: url("../img/olivera1a.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom:0;
+    background-size: 100% 100%;
+    border-radius: 8px;
+    transition: 1s;
+}
+
+
+.card:hover .pic8 {
+    transform: scale(0.5, 0.35) translateY(-525px);
+    border-radius: 40%;
+}
+
+
+.pic9 {
+    height: 100%;
+    width: 100%;
+    background-image: url("../img/stina_nordenstam2.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom:0;
+    background-size: 100% 100%;
+    border-radius: 8px;
+    transition: 1s;
+}
+
+
+.card:hover .pic9 {
+    transform: scale(0.5, 0.35) translateY(-525px);
+    border-radius: 40%;
+}
+
+.pic10 {
+    height: 100%;
+    width: 100%;
+    background-image: url("../img/susannesundfor2.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom:0;
+    background-size: 100% 100%;
+    border-radius: 8px;
+    transition: 1s;
+}
+
+
+.card:hover .pic10 {
+    transform: scale(0.5, 0.35) translateY(-525px);
+    border-radius: 40%;
+}
+
+
+.pic11 {
+    height: 100%;
+    width: 100%;
+    background-image: url("../img/tina_dico2.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom:0;
+    background-size: 100% 100%;
+    border-radius: 8px;
+    transition: 1s;
+}
+
+
+.card:hover .pic11 {
+    transform: scale(0.5, 0.35) translateY(-525px);
+    border-radius: 40%;
+}
+
+.pic12 {
+    height: 100%;
+    width: 100%;
+    background-image: url("../img/silje_nes1.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom:0;
+    background-size: 100% 100%;
+    border-radius: 8px;
+    transition: 1s;
+}
+
+
+.card:hover .pic12 {
+    transform: scale(0.5, 0.35) translateY(-525px);
+    border-radius: 40%;
+}
+
+
+
+
+/*-----------------------------------------^^^^^ End List of Gallery Photos*/
+/*-------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*=========================================================Footer*/
 
-.site-footer
+.site-footer container
 {
+  position:relative;
+  bottom: 0;
+ }
+
+.site-footer 
+{ 
   background-color:#26272b;
   padding:45px 0 20px;
   font-size:15px;
