@@ -264,8 +264,11 @@ nav ul li{
 }
 .intro-pic img {
     max-height: 200px;
-    
-      }
+}
+
+.intro-pic2 img{
+    max-height: 200px;
+}
 
 .intro-text {
     padding: 0 20px;
@@ -788,8 +791,9 @@ nav ul li{
 
 .artist-main-outer .row {
     margin-bottom: 50px;
-    
 }
+
+
 
 .media-container {
     display: flex;
@@ -811,6 +815,7 @@ padding-top: 56.25%;
   right: 0;
   width: 100%;
   height: 100%;
+  padding: 20px;
 }
 
 .media-box2 {
@@ -1011,6 +1016,21 @@ width: 100%;
     margin-right:0;
     font-weight:600
   }
+
+  .intro-text h1 {
+      font-size: 2rem;
+  }
+
+.intro-text h4 {
+      font-size: 1rem;
+  }
+
+  .intro-text p {
+      font-size: 0.75rem;
+  }
+.intro-pic2 img{
+    display: none;
+}
 }
 
 
