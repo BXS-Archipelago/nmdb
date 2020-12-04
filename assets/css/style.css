@@ -822,7 +822,7 @@ margin-bottom: 50px;
 }
 
 
-.media-box2 .spot .spotify{
+.media-box2 .spotify .spotify-responsive{
  position: absolute;
   top: 0;
   left: 0;
@@ -838,8 +838,6 @@ max-height: 200px;
 position: relative;
 width: 100%;
 }
-
-
 
 
 /*=========================================================Footer*/
