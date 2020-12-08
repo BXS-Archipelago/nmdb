@@ -268,16 +268,19 @@ nav ul li{
 .row-1 {
      background-color: #FF3B3F;
      padding: 15px;
+     border-radius: 8px;
 }
 
 .row-2 {
      background-color: #A9A9A9;
       padding: 15px;
+      border-radius: 8px;
 }
 
 .row-3 {
     background-color: #FF3B3F;
      padding: 15px;
+     border-radius: 8px;
 }
 
 .intro-pic img {
@@ -643,17 +646,17 @@ nav ul li{
 
 .about-pic img
    {
-    max-height: 180px;
+    height: 300px;
         }
 
-@media (min-width:1100px)
+@media (min-width:993px)
 {
 
 .about-pic img
    {
      position: relative;
     width: 100%;
-    min-height: 400px;
+    max-height: 600px;
     overflow: hidden;
         }
 }
