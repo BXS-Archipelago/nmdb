@@ -12,9 +12,11 @@ body {
 /*--------------------------------------------------------------------------*/
 /*------------------------------------------------------------Logo & Nav Bar*/
 
+
 nav {position: relative;
     margin: 20px 20px 150px 20px;
     top: 0;
+    
    }
 
 .logo {
@@ -262,6 +264,22 @@ nav ul li{
    align-items: center;
    margin: 30px auto;
 }
+
+.row-1 {
+     background-color: #FF3B3F;
+     padding: 15px;
+}
+
+.row-2 {
+     background-color: #A9A9A9;
+      padding: 15px;
+}
+
+.row-3 {
+    background-color: #FF3B3F;
+     padding: 15px;
+}
+
 .intro-pic img {
     max-height: 200px;
 }
@@ -272,9 +290,24 @@ nav ul li{
 
 .intro-text {
     padding: 0 20px;
+    color: #282828;
 }
 
+.intro-text li  {
+     list-style: none;
+}
 
+.intro-text li a {
+    color: darkblue;
+    font-weight: bolder;
+    list-style: none;
+}
+
+.intro-text span a {
+    color: darkblue;
+    font-weight: bolder;
+    
+}
 
 /*=====================================================GALLERY ARTISTS.HTML*/
 
@@ -629,12 +662,16 @@ nav ul li{
 
 /*---------------------------------------------------------------Contact Form */
 .contact-pic img {
- max-height: 580px;
-  position: relative;
+    max-height: 600px;
+    position: relative;
     width: 100%;
-
+    border-radius:8px;
+    margin-top: 30px;
 }
 
+.main-outer-contact {
+    margin-bottom: 25px;
+}
 
 .cont-sctn {
     display: flex;
@@ -664,7 +701,7 @@ nav ul li{
     display: flex;
     justify-content: center;
     align-items: center;
-
+   
 }
 
 .contact-container .form-box form {
@@ -675,9 +712,17 @@ nav ul li{
 
 .contact-container .form-box .form-style h3 {
     color: #33353d; 
-    font-weight: 500;
-    font-size: 40px;
-    font-family: "Architects Daughter", sans-serif;
+    font-size: 3rem;
+    font-family: "Roboto Condensed", sans-serif;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+}
+
+.contact-container .form-box .form-style p {
+    color: #FF3B3F; 
+    font-weight: 700;
+    font-size: 20px;
+    font-family: "Roboto Condensed", sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-bottom: 40px;
@@ -1029,6 +1074,10 @@ width: 100%;
       font-size: 0.75rem;
   }
 .intro-pic2 img{
+    display: none;
+}
+
+.contact-pic img {
     display: none;
 }
 }
