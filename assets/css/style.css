@@ -675,7 +675,7 @@ nav ul li{
     padding: 20px 20px 10px 20px;
     border-radius: 8px;
     letter-spacing: 1px;
-    margin-bottom: 20px;   
+    margin: 20px 0;   
 }
 
 .intro-text .abt-text h1 {
@@ -1131,7 +1131,7 @@ width: 100%;
   }
 
   .intro-text h1 {
-      font-size: 2rem;
+      font-size: 1.5rem;
   }
 
 .intro-text h4 {
@@ -1141,6 +1141,11 @@ width: 100%;
   .intro-text p {
       font-size: 0.75rem;
   }
+
+  .intro-text ul li a {
+      font-size: 12px;
+  }
+
 .intro-pic2 img{
     display: none;
 }
