@@ -277,11 +277,8 @@ nav ul li{
       border-radius: 8px;
 }
 
-.row-3 {
-    background-color: #FF3B3F;
-     padding: 15px;
-     border-radius: 8px;
-}
+
+
 
 .intro-pic img {
     max-height: 200px;
@@ -294,6 +291,10 @@ nav ul li{
 .intro-text {
     padding: 0 20px;
     color: #282828;
+}
+
+.intro-text p {
+    font-weight: 500;
 }
 
 .intro-text li  {
@@ -310,6 +311,27 @@ nav ul li{
     color: darkblue;
     font-weight: bolder;
     
+}
+
+.intro-text2 {
+    padding: 0 20px;
+    color: #282828;
+
+}
+
+.intro-text2 li  {
+     list-style: none;
+}
+
+.intro-text2 li a {
+    color: darkblue;
+    font-weight: bolder;
+    list-style: none;
+}
+
+.intro-text2 span a {
+    color: #282828;
+    font-weight: bolder;
 }
 
 /*=====================================================GALLERY ARTISTS.HTML*/
@@ -644,9 +666,48 @@ nav ul li{
 
 /*------------------------------------------------------------------ABOUT.HTML*/
 
+.intro-text .abt-text {
+    background-color: #A9A9A9;
+    padding: 20px 20px 10px 20px;
+    border-radius: 8px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;   
+}
+
+.intro-text .abt-text h1 {
+    font-size: 1.6rem;
+}
+
+.intro-text .abt-text p {
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+
+.intro-text .abt-text2 {
+    background-color: #d4af37;
+    padding: 20px 20px 10px 20px;
+    border-radius: 8px;
+    letter-spacing: 1px;
+   
+}
+
+.intro-text .abt-text2 h1 {
+    font-size: 1.6rem;
+}
+
+.intro-text .abt-text2 p {
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
 .about-pic img
    {
-    height: 300px;
+    max-height: 500px;
+    height: auto;
+    width: 100%;
         }
 
 @media (min-width:993px)
