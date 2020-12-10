@@ -6,6 +6,9 @@ body {
     margin: 0;
     box-sizing: border-box;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 
@@ -14,10 +17,10 @@ body {
 
 
 nav {position: relative;
-    margin: 20px 20px 150px 20px;
+    padding: 0px 0px 140px 0px;
     top: 0;
-    
-   }
+   
+       }
 
 .logo {
     float: left;
@@ -269,23 +272,28 @@ nav ul li{
      background-color: #FF3B3F;
      padding: 15px;
      border-radius: 8px;
+     box-shadow: 8px 7px 4px #a59e8e;
+     margin: 0 9px;
 }
 
 .row-2 {
-     background-color: #A9A9A9;
+      background-color: #A9A9A9;
       padding: 15px;
       border-radius: 8px;
+      box-shadow: 8px 7px 4px #a59e8e;
 }
 
 .row-3 {
- background-color: #d4af37;
-      padding: 15px;
-      border-radius: 8px;
+    background-color: #d4af37;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 8px 7px 4px #a59e8e;
 }
 
 
 .intro-pic img {
     max-height: 200px;
+     box-shadow: 3px 5px 6px #565b5d ;
 }
 
 .intro-pic2 img{
@@ -314,7 +322,10 @@ nav ul li{
 .intro-text span a {
     color: darkblue;
     font-weight: bolder;
-    
+}
+
+.intro-text .header1 b {
+    font-size: 110%;
 }
 
 .intro-text2 {
@@ -964,6 +975,7 @@ width: 100%;
 {
   position:relative;
   bottom: 0;
+  
  }
 
 .site-footer 
@@ -1132,6 +1144,7 @@ width: 100%;
 
   .intro-text h1 {
       font-size: 1.5rem;
+      padding-top: 10px;
   }
 
 .intro-text h4 {
