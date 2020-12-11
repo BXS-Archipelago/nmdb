@@ -111,7 +111,7 @@ nav ul li a {
      .logo-title-strong {
         font-size: 70px;
     }
-nav ul li{
+    nav ul li{
     padding: 12px 5px;
 }
 
@@ -172,7 +172,7 @@ nav ul li{
 .nav-wrapper ul li a {
     padding: 10px 22px;
     color: #fff;
-    font-weight: 14px;
+    font-size: 1.5rem;
     letter-spacing: 1.2px;
     opacity: 0;
     transform: translateX(-20px);
@@ -213,14 +213,7 @@ nav ul li{
 
 }
 
-@media screen and (max-width: 600px) {
 
-.logo{
-   
-    margin-left: 0px;
-       }
-
-}
 /*-------------------------------------------------------------------------*/
 /*----------------------------------------------------------BurgerIcon setting*/
 
@@ -1069,6 +1062,10 @@ width: 100%;
   {
     text-align:center
   }
+
+  .footer-links {
+      display: none;
+  }
 }
 .social-icons
 {
@@ -1135,6 +1132,11 @@ width: 100%;
 
 @media (max-width:767px)
 {
+
+.logo{
+       margin-left: 0px;
+} 
+
   .social-icons li.title
   {
     display:block;
