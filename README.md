@@ -28,6 +28,9 @@ Students
 Anybody who uses earphones with their mobile devices
 Music is proven to improve mood, reduce stress and/or anxiety, improves exercise and performance, improves memory and cognition. The people who will benefit most from this website are those with ears.
 
+### How is it made?
+The site is designed using only HTML5 and CSS3 with some Bootstrap. There is a high potential for development with Javascript at a later stage though. 
+
 ## ===== - User Experience - ====
 
 Visitors to the site are looking for new music experiences from unfamiliar artists. They will be invited to browse each artist and listen to samples of the music on spotify or watch YouTube videos.
@@ -202,3 +205,20 @@ Responsiveness
 #### Artists page on iPhone
 
 ![Bxs-archipelago - iPhone X - 2020-14-12 at 3 22 34 PM](https://user-images.githubusercontent.com/71372294/102099639-650a9500-3e20-11eb-9150-f375da776ff5.jpg)
+
+
+## Future Potential:
+
+Iceflow has the potential to become a popular music media site. Driven by Social Media, the site visits could generate revenue through advertising and affiliate marketing. There is scope for two to three hundred featured artists with more sophisticated indexing system such as by genre, by country, by gender, and other sub-categories. 
+
+This would inevitably need javasccipt development, but for the sake of this MS1 project, I chose to limit the content to HTML5 and CSS3 since that has been the subject matter of the course thus far. 
+
+# Observations 
+
+I did find this to be a difficult first website to create. The gallery, in terms of the card sizing and movement along with the layout was hard to get right responsively. The Navigation bar was time-consuming but rewarding to get right. 
+
+My Contact form had bugs due to a misinterpretation of the tutorial. The field text movement would rise up but then come back into the user-input data, making it illegible. But this, frustratingly, turned out to be just mislabeled class names.
+
+Another error, pointed out by my Mentor, Maranatha Ilesanmi, was that many of my images were not showing in the published site. I had not realised that the file path is slightly different when images are tracked from the HTML page and the CSS page. 
+
+Thank you for taking the time to review this project. I hope to actually publish it in the near future. 
