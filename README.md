@@ -1,23 +1,24 @@
-=======================-- iceflow by Brian Smyth --=======================
+======================= iceflow by Brian Smyth =======================
 
-===== - Introduction - ====
+# ===== - Introduction - ====
 
-Overview
+## === Overview-====
 
 This website is for any contemporary music enthusiast and will provide them with direct links to singer-songwriters of the Nordic Music industry.
 
-Why does it exist
+### Why does it exist
 
 There are many artists in the Nordic region who create their music in the English language, however the marketing strategies of their record labels often do not extend properly into the global market. This website will act as a relay for the artists to introduce their music to a wider audience, especially in Europe and the US.
 
-What does it do?
+### What does it do?
 
 The site will provide some biographical information for each artist, with links to their work provided through YouTube and spotify links, and also direct links to the artists' social media pages.
 
-How does it work?
+### How does it work?
 
 The landing page will contain a gallery that will in turn open to the individual artist's page on the site.
 
+### How does it work?
 Who will benefit most from visiting the site
 
 Music enthusiasts.
@@ -27,7 +28,7 @@ Students
 Anybody who uses earphones with their mobile devices
 Music is proven to improve mood, reduce stress and/or anxiety, improves exercise and performance, improves memory and cognition. The people who will benefit most from this website are those with ears.
 
-===== - User Experience - ====
+## ===== - User Experience - ====
 
 Visitors to the site are looking for new music experiences from unfamiliar artists. They will be invited to browse each artist and listen to samples of the music on spotify or watch YouTube videos.
 
@@ -42,13 +43,13 @@ With the scope for so many artists, the site must remain easy to navigate. Other
 The site owner actively populates the social media pages with new entries so the visitors will be encouraged to click to their favourite site, for example, Facebook, Twitter, Instagram. 
 
 
-===== - Wireframe Mock-site - ====
+###  Wireframe Mock-site 
 
 A Wireframe mock-up has been created with Balsamiq to show an approximate visual objective for the site and is listed in the file menu herewith.
 
-===== - Viewing the Site Responsively - ======
+## Viewing the Site Responsively 
 
-Desktop
+#### Desktop
 
 Each page will contain a logo in the top left screen that will also provide a home link to index.html.
 
@@ -72,45 +73,45 @@ Both the About and Contact page will encourage the visitor to send in the name o
 
 The pages for the artists will contain a short biographical note, a section for recommendations of their work to the visitor, with link to spotify and a featured Youtube video from the artist.
 
-Tablet View
+#### Tablet View
 
 The tablet view will inherit most features of the desktop site but the navigation bar will respond by transforming into a Burger bar for a drop-down menu. This will feature in the top right.
 
 The Burger bar, when activated will transform into a "X" that can close the menu if required. This will be seated near the top right of the page.
 
-Mobile view
+#### Mobile view
 
 On mobile phone devices, the nav bar will remain as an active Burger-style drop-down menu.
 
 The Landing page gallery will shrink to a single column to scroll downwards.
 
-===== - Design - ====
+## Design
 
 Header - Logo will be text-based, the site name : "iceflow" - Logo font-family : "Roboto Condensed", a simple font to keep with the theme of the site as a publisher of information. 
 
-Color-scheme - 
+### Color-scheme - 
 
- Color palette:
+ #### Color palette:
 - Neutral background, light & clean : #EFEFEF 
 - Definition feature, distinctive Watermelon : #FF3B3F 
 - Contrast : Deep Carbon : #A9A9A9 
 - Contrast : Metallic Gold: #d4af37 #D4AF37 
 
 
-==== -Pages and folder List- ====
+ Pages and folder List
 
-|- assets (folder)  
-|- css (folder) 
-|- style.css 
-|- img (folder) 
-|- (various image files) 
-|-index.HTML 
-|-artists.html 
-|-about.HTML 
-|-contact.HTML 
-|-artist-template.html (name will change with each entry)
+- assets (folder)  
+- css (folder) 
+- style.css 
+- img (sub-folder) 
+- (various image files) 
+-index.HTML 
+-artists.html 
+-about.HTML 
+-contact.HTML 
+-artist-template.html (name will change with each entry)
 
-==== - building the site - ====
+## Building the site 
 
 The Navigation bar:
 
@@ -126,24 +127,24 @@ The footer also uses Container, Rows and Columns to fit all the information. It 
 
 The Gallery - artists.html - was a long affair. The video tutorial for the effect was originally intended for just three Cards of a long rectangular shape. I re-sized the photos to make them suitable for the container, also adjusting the size of the card. The inside card was edited to fit the shrunken picture evenly at the top with the text, divider and buttons all repositioned. 
 
-==== - Credits - ====
+## Credits
 
--- Navbar --
+#### Navbar -
 Video tutorial for animated bar for responsive navigation menu:
 Creator : Tech2etc 
 https://youtu.be/baFqcVUMUg0
 
--- Gallery --
+#### Gallery --
 Video tutorial for animated holding card for artists' photos and button: 
 Creator : Tech2etc
 https://www.youtube.com/watch?v=L5c6P1edZvE&t=315s
 
---Contact Form --
+#### Contact Form --
 Contact page tutorial for the contact form :
 Creator : Online Tutorials
 https://www.youtube.com/watch?v=gggB0Nq5vBk
 
--- Photograph Credits --  
+#### Photograph Credits --  
 gig2.jpg  Microphone photo created by Oscar Keys; 
 Source Unsplash.com
 https://unsplash.com/photos/ojVMh1QTVGY
@@ -160,13 +161,44 @@ Contact page - Singout.jpg photo created by Alyssa Yung
 Source Unsplash.com
 https://unsplash.com/photos/-Gx7tuwO8_U
 
-****** NB - Photographs of the artists ******
+### ****** NB - Photographs of the individual artists ******
 Images of each artist were taken from the artists own website or social media page. The creator's name for each photo was not available but the images are in wide circulation as marketing material. 
 
 
+## Responsiveness Display
+
+Responsiveness 
+
+#### Generic Laptop : 
+
+
+![Bxs-archipelago - Generic Laptop - 2020-14-12 at 2 55 40 PM](https://user-images.githubusercontent.com/71372294/102098408-18728a00-3e1f-11eb-92fd-15eda75be32d.jpg)
+
+
+#### iPhone display
 
 
 
+![Bxs-archipelago - Full - iPhone X - 2020-14-12 at 2 48 24 PM](https://user-images.githubusercontent.com/71372294/102098839-8cad2d80-3e1f-11eb-9f22-66aad9b774c0.jpg)
 
 
+#### iPad display
 
+![Bxs-archipelago - Full - iPad - 2020-14-12 at 2 48 24 PM](https://user-images.githubusercontent.com/71372294/102098497-34762b80-3e1f-11eb-9c37-490dd3eb8f88.jpg)
+
+
+#### View of Artists page on Laptop
+
+
+![Bxs-archipelago - Generic Laptop - 2020-14-12 at 3 21 26 PM](https://user-images.githubusercontent.com/71372294/102099308-12c97400-3e20-11eb-8950-daac429e9237.jpg)
+
+
+#### Artists page on iPad
+
+
+![Bxs-archipelago - iPad - 2020-14-12 at 3 22 24 PM](https://user-images.githubusercontent.com/71372294/102099614-5e7c1d80-3e20-11eb-9c0f-ef7b2791fcf2.jpg)
+
+
+#### Artists page on iPhone
+
+![Bxs-archipelago - iPhone X - 2020-14-12 at 3 22 34 PM](https://user-images.githubusercontent.com/71372294/102099639-650a9500-3e20-11eb-9150-f375da776ff5.jpg)
